@@ -53,6 +53,6 @@ if __name__ == '__main__':
     result = tariff(file, '192.168.250.59', 1, 1)
     for row in result[0]:
         print(row)
-    print(f'total is {result[1]} rubles')
+    print(f'total cost is {result[1]} rubles')
     
     make_plot(file, '192.168.250.59', 'plot.png')
